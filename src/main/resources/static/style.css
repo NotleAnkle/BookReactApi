@@ -1,0 +1,53 @@
+.btn{
+    line-height: 48px;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 8px 4px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.8);
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.noti__body{
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgb(255,255,255,0.5), rgb(255,255,255,0.5)), url(https://static.vecteezy.com/system/resources/previews/005/665/541/original/a-set-of-school-items-in-a-simple-doodle-style-line-illustration-isolated-on-background-vector.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+.save__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgb(255,255,255,0.7), rgb(255,255,255,0.7)), url(https://thumbs.dreamstime.com/b/seamless-illustration-theme-vegetarianism-grocery-icons-simple-outline-black-icons-white-background-pattern-88807401.jpg);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: 100px auto;
+    text-align: center;
+}
+.content__item{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0px;
+}
+.item__atb{
+    min-width: 60px;
+    padding: 2px;
+    margin-right: 4px;
+    border-bottom: 1px solid #333;
+    background-color: rgb(219, 216, 216);
+}
+.item__input{
+    width: 500px;
+}
